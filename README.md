@@ -1,8 +1,7 @@
 # EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD
 
 
-**DATE:**
-29-04-26 <br>
+
 **NAME:**
 Kurapati Vishnu Vardhan Reddy <br>
 **ROLL NO:**
