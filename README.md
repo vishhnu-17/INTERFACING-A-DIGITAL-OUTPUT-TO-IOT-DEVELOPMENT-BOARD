@@ -2,13 +2,13 @@
 
 
 **DATE:**
-
+29-04-26
 **NAME:**
-
+Kurapati Vishnu Vardhan Reddy
 **ROLL NO:**
-
+212223040103
 **DEPARTMENT:**
-
+CSE
 ## Aim
 
 To Interface a Digital output (LED) to ARM IOT development board and write a program to blink an LED.
@@ -99,10 +99,35 @@ With its power-efficient design, built-in LoRaWAN support, and flexible communic
 ## STM 32 CUBE PROGRAM
 
 ```
-// Your STM 32 CUBE Program code here
+int main(void)
+{
+
+
+
+
+  HAL_Init();
+
+  
+  SystemClock_Config();
+
+  
+  MX_GPIO_Init();
+  
+  while (1)
+  {
+     HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
+     HAL_Delay(4000);
+     HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+     HAL_Delay(4000);
+  }
+}
 ```
 
 ## OUTPUT
+ON:
+<img width="1280" height="987" alt="WhatsApp Image 2026-04-28 at 9 49 03 AM" src="https://github.com/user-attachments/assets/3a78bc30-a851-43fe-95a7-4bb8d10f2e83" />
+OFF:
+<img width="1280" height="987" alt="WhatsApp Image 2026-04-28 at 9 49 03 AM" src="https://github.com/user-attachments/assets/3877c5ac-9877-4205-aa0f-47ca893ec46f" />
 
 ## Result
 
