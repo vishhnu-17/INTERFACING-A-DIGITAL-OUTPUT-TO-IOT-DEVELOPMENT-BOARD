@@ -2,13 +2,13 @@
 
 
 **DATE:**
-29-04-26
+29-04-26 <br>
 **NAME:**
-Kurapati Vishnu Vardhan Reddy
+Kurapati Vishnu Vardhan Reddy <br>
 **ROLL NO:**
-212223040103
+212223040103  <br>
 **DEPARTMENT:**
-CSE
+CSE   <br>
 ## Aim
 
 To Interface a Digital output (LED) to ARM IOT development board and write a program to blink an LED.
